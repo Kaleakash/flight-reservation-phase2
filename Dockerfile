@@ -1,2 +1,2 @@
 FROM nginx:latest
-COPY ./dist/flight-booking ./usr/share/nginx/html
+COPY /dist/flight-booking ./usr/share/nginx/html
